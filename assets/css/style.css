@@ -9,3 +9,29 @@
   display: table;
   clear: both;
 }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main #result{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#result ul li{
+  display: inline-block;
+  margin: 0 30px 15px 0;
+}
+
+#result ul li:last-of-type{
+  display: block;
+  margin: 0;
+}
+
+#result strong{
+  color: darkred;
+  text-decoration: underline;
+}

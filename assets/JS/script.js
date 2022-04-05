@@ -18,9 +18,9 @@ pwd = nome + cognome + colore + "22";
 const content =
 `
   <ul>
-    <li>Nome: ${nome}</li>
-    <li>Cognome: ${cognome}</li>
-    <li>Colore preferito: ${colore}</li>
+    <li>Nome: <strong>${nome}</strong></li>
+    <li>Cognome: <strong>${cognome}</strong></li>
+    <li>Colore preferito: <strong>${colore}</strong></li>
     <li><strong>Password generata: ${pwd}</strong></li>
   </ul>
 `
